@@ -31,6 +31,8 @@ jobs:
           cache-dependency-path: site/package-lock.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Install
         working-directory: site
         run: npm ci
@@ -51,4 +53,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
