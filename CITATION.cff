@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you cite MPP-I, please cite the paper using the metadata below."
+title: "MPP-I: Machine Payments Protocol for Inference"
+abstract: "MPP-I is proposed as an MPP-native payment profile for metered inference. It defines the inference-specific payment lifecycle inside an MPP-compatible challenge, credential, and receipt envelope."
+authors:
+  - name: "Jamie"
+    affiliation: "Alethieum"
+date-released: "2026-06-28"
+version: "Paper v1.0"
+institution: "Alethieum"
+contact:
+  - "jamie@alethieum.com"
+keywords:
+  - "machine payments"
+  - "metered inference"
+  - "HTTP 402"
+  - "MPP"
+  - "x402"
+  - "inference wallets"
+preferred-citation:
+  type: report
+  title: "MPP-I: Machine Payments Protocol for Inference"
+  authors:
+    - name: "Jamie"
+      affiliation: "Alethieum"
+  institution: "Alethieum"
+  date-released: "2026-06-28"
+  version: "Paper v1.0"
+

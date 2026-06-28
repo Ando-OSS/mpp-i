@@ -1,0 +1,27 @@
+---
+title: Q&A
+description: Common questions about MPP-I
+---
+
+# Q&A
+
+## Is MPP-I a coin?
+
+No. MPP-I is not a coin, token, or settlement asset. It is a proposed payment profile for metered inference inside the MPP family.
+
+## Does MPP-I replace MPP?
+
+No. MPP-I is designed to be compatible with MPP's outer payment flow while adding inference-specific lifecycle semantics.
+
+## Does MPP-I require x402?
+
+No. MPP-I can be designed to work with x402-compatible settlement paths where they preserve run binding, cumulative authorisation, and receipt semantics.
+
+## Does the payment plane see prompts or outputs?
+
+No. The payment/control plane should not see raw prompt or raw output content. It carries payment state, meter frames, low-credit events, drain events, settlement references, and receipts.
+
+## What happens if vouchers stop?
+
+The provider admits no new billable interval, drains only through already authorised headroom, stops at the disclosed boundary, settles the metered amount due, and emits a final receipt.
+

@@ -1,0 +1,24 @@
+name: Protocol Question
+description: Ask a scoped protocol question that may become actionable work.
+title: "[Protocol question]: "
+labels: ["protocol-question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What answer would unblock
+    validations:
+      required: false
+

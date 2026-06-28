@@ -1,0 +1,26 @@
+body:
+  - type: markdown
+    attributes:
+      value: "Use this for open-ended MPP-I protocol feedback or design discussion."
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What part of MPP-I are you discussing?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Describe the protocol, implementation, or ecosystem context.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: View or proposal
+      description: Share your view, proposal, or question.
+    validations:
+      required: true
+

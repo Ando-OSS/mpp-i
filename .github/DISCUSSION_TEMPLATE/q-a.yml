@@ -1,0 +1,17 @@
+body:
+  - type: markdown
+    attributes:
+      value: "Ask a general MPP-I question here. If this becomes actionable, maintainers may move it to an Issue."
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Add any relevant paper section, implementation context, or link.
+    validations:
+      required: false

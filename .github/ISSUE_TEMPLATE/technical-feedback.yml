@@ -1,0 +1,31 @@
+name: Technical Feedback
+description: Report a technical concern or implementation-relevant issue.
+title: "[Technical feedback]: "
+labels: ["technical-feedback"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Paper section, future spec section, file, or URL.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Technical impact
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested fix or direction
+    validations:
+      required: false
+
