@@ -1,6 +1,18 @@
 # MPP-I: Machine Payments Protocol for Inference
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21017440.svg)](https://doi.org/10.5281/zenodo.21017440)
+[![Release](https://img.shields.io/github/v/release/Ando-OSS/mpp-i?label=release)](https://github.com/Ando-OSS/mpp-i/releases)
+[![License](https://img.shields.io/github/license/Ando-OSS/mpp-i)](LICENSE)
+[![Pages](https://github.com/Ando-OSS/mpp-i/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Ando-OSS/mpp-i/actions/workflows/deploy-pages.yml)
+[![Status](https://img.shields.io/badge/status-proposed%20protocol-blue)](https://github.com/Ando-OSS/mpp-i)
+[![Paper](https://img.shields.io/badge/paper-v1.0-2b6cb0)](paper/mpp-i-paper-v1.0.pdf)
+[![PDF](https://img.shields.io/badge/PDF-read%20paper-red)](https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf)
+[![TeX](https://img.shields.io/badge/TeX-source-008080)](paper/mpp-i-paper-v1.0.tex)
+[![Citation](https://img.shields.io/badge/citation-CFF-blueviolet)](CITATION.cff)
+[![Zenodo](https://img.shields.io/badge/archived-Zenodo-1682D4)](https://zenodo.org/records/21017440)
+[![Discussions](https://img.shields.io/badge/discussions-open-brightgreen)](https://github.com/Ando-OSS/mpp-i/discussions)
+[![Issues](https://img.shields.io/github/issues/Ando-OSS/mpp-i)](https://github.com/Ando-OSS/mpp-i/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
 
 MPP-I is a proposed MPP-compatible, inference-native payment profile for metered inference.
 
