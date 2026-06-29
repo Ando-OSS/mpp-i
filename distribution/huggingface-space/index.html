@@ -198,16 +198,23 @@
       }
 
       .preview {
-        min-height: 720px;
         border: 1px solid var(--line);
         background: var(--soft);
       }
 
-      .preview iframe {
+      .paper-preview {
         display: block;
         width: 100%;
-        min-height: 720px;
-        border: 0;
+        padding: 16px;
+        background: var(--soft);
+      }
+
+      .paper-preview img {
+        display: block;
+        width: 100%;
+        max-height: 720px;
+        object-fit: contain;
+        border: 1px solid var(--line);
         background: #ffffff;
       }
 
@@ -240,9 +247,8 @@
           grid-template-columns: 1fr;
         }
 
-        .preview,
-        .preview iframe {
-          min-height: 520px;
+        .paper-preview img {
+          max-height: 520px;
         }
       }
 
@@ -326,11 +332,12 @@
             </section>
           </div>
 
-          <section class="preview" aria-label="PDF preview">
-            <iframe src="https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf#view=FitH" title="MPP-I paper PDF preview">
-            </iframe>
+          <section class="preview" aria-label="Paper preview">
+            <a class="paper-preview" href="https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf" aria-label="Open the MPP-I paper PDF">
+              <img src="mpp-i-paper-preview.png" alt="First page preview of the MPP-I paper">
+            </a>
             <div class="fallback">
-              If the embedded preview does not load, open the paper directly at
+              Open the full 67-page paper directly at
               <a href="https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf">ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf</a>.
             </div>
           </section>
