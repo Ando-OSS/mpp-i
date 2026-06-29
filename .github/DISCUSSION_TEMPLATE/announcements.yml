@@ -1,0 +1,18 @@
+title: "[Announcement]: "
+labels: ["announcement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Maintainer announcements for MPP-I releases, paper updates, spec milestones, and governance updates."
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+    validations:
+      required: true

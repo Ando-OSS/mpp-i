@@ -1,0 +1,34 @@
+title: "[Protocol design]: "
+labels: ["protocol-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this for MPP-I protocol design feedback, lifecycle questions, payment-plane/inference-plane design, settlement semantics, compatibility, or implementation tradeoffs."
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+      description: What part of MPP-I are you discussing?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Technical context
+      description: Describe the relevant protocol, inference, payment, settlement, or implementation context.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: View or proposal
+      description: Share the proposed change, concern, or design direction.
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: Tradeoffs
+      description: What compatibility, security, latency, settlement, or implementation tradeoffs should be considered?
+    validations:
+      required: false
