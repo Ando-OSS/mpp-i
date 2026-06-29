@@ -19,12 +19,14 @@ The repository starts with the approved MPP-I paper. Future work will add draft 
 
 - PDF: [`paper/mpp-i-paper-v1.0.pdf`](paper/mpp-i-paper-v1.0.pdf)
 - LaTeX source: [`paper/mpp-i-paper-v1.0.tex`](paper/mpp-i-paper-v1.0.tex)
+- GitHub Pages PDF view: <https://ando-oss.github.io/mpp-i/>
+- Direct Pages PDF: <https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf>
 
 ## Repository Structure
 
 - `paper/`: approved publication artifacts.
 - `spec/`: future normative and draft protocol specifications.
-- `site/`: public readable website built with Astro Starlight and deployed to GitHub Pages.
+- `pages/`: minimal GitHub Pages entrypoint that opens the PDF.
 - `examples/`: future examples.
 - `packages/`: future libraries and SDK packages.
 
@@ -43,4 +45,3 @@ Use the repository citation metadata in `CITATION.cff`. A DOI may be added later
 ## License
 
 Paper, specification, and documentation text are licensed under CC-BY-4.0. Future executable code, examples, and libraries are intended to be licensed under Apache-2.0 unless a file states otherwise.
-

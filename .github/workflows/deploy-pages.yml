@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
     paths:
-      - "site/**"
+      - "pages/**"
+      - "paper/**"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -23,26 +24,20 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: site/package-lock.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
           enablement: true
-      - name: Install
-        working-directory: site
-        run: npm ci
-      - name: Build
-        working-directory: site
-        run: npm run build
+      - name: Prepare static artifact
+        run: |
+          mkdir -p _site
+          cp pages/index.html _site/index.html
+          cp paper/mpp-i-paper-v1.0.pdf _site/mpp-i-paper-v1.0.pdf
+          cp paper/mpp-i-paper-v1.0.tex _site/mpp-i-paper-v1.0.tex
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site/dist
+          path: _site
   deploy:
     environment:
       name: github-pages

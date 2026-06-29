@@ -7,8 +7,7 @@
 - [x] No temporary render files are present.
 - [x] `CITATION.cff` is present.
 - [x] `CONTRIBUTING.md` explains Issues, Discussions, and PRs.
-- [x] Starlight site builds locally.
-- [x] GitHub Pages workflow is present.
+- [x] GitHub Pages workflow publishes the PDF directly.
 - [x] GitHub Issues templates are present.
 - [x] GitHub Discussions templates are present.
 - [x] License policy is present.
