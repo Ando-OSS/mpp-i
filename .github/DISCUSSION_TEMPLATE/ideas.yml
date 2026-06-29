@@ -1,3 +1,5 @@
+title: "[Protocol feedback]: "
+labels: ["protocol-feedback"]
 body:
   - type: markdown
     attributes:
@@ -23,4 +25,3 @@ body:
       description: Share your view, proposal, or question.
     validations:
       required: true
-

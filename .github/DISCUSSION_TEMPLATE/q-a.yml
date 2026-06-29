@@ -1,3 +1,5 @@
+title: "[Question]: "
+labels: ["q-a"]
 body:
   - type: markdown
     attributes:
