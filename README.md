@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21017440.svg)](https://doi.org/10.5281/zenodo.21017440)
 [![Release](https://img.shields.io/github/v/release/Ando-OSS/mpp-i?label=release)](https://github.com/Ando-OSS/mpp-i/releases)
-[![License](https://img.shields.io/github/license/Ando-OSS/mpp-i)](LICENSE)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg)](LICENSE)
 [![Pages](https://github.com/Ando-OSS/mpp-i/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Ando-OSS/mpp-i/actions/workflows/deploy-pages.yml)
 [![Status](https://img.shields.io/badge/status-proposed%20protocol-blue)](https://github.com/Ando-OSS/mpp-i)
 [![Paper](https://img.shields.io/badge/paper-v1.0-2b6cb0)](paper/mpp-i-paper-v1.0.pdf)
@@ -60,4 +60,4 @@ DOI: [10.5281/zenodo.21017440](https://doi.org/10.5281/zenodo.21017440)
 
 ## License
 
-Paper, specification, and documentation text are licensed under CC-BY-4.0. Future executable code, examples, and libraries are intended to be licensed under Apache-2.0 unless a file states otherwise.
+Paper, specification, and documentation text are licensed under CC-BY-4.0. Future executable code, examples, and libraries are intended to be licensed under Apache-2.0 unless a file states otherwise. See `LICENSE-POLICY.md`.
