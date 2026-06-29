@@ -19,8 +19,7 @@ The repository starts with the approved MPP-I paper. Future work will add draft 
 
 - PDF: [`paper/mpp-i-paper-v1.0.pdf`](paper/mpp-i-paper-v1.0.pdf)
 - LaTeX source: [`paper/mpp-i-paper-v1.0.tex`](paper/mpp-i-paper-v1.0.tex)
-- GitHub Pages PDF view: <https://ando-oss.github.io/mpp-i/>
-- Direct Pages PDF: <https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf>
+- GitHub Pages PDF: <https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf>
 
 ## Repository Structure
 
