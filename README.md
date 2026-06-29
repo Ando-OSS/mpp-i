@@ -10,6 +10,8 @@
 [![TeX](https://img.shields.io/badge/TeX-source-008080)](paper/mpp-i-paper-v1.0.tex)
 [![Citation](https://img.shields.io/badge/citation-CFF-blueviolet)](CITATION.cff)
 [![Zenodo](https://img.shields.io/badge/archived-Zenodo-1682D4)](https://zenodo.org/records/21017440)
+[![Hugging Face Space](https://img.shields.io/badge/Hugging%20Face-Space-ffcc00)](https://huggingface.co/spaces/Ando-Inference/mpp-i)
+[![Hugging Face Collection](https://img.shields.io/badge/Hugging%20Face-Collection-ffcc00)](https://huggingface.co/collections/Ando-Inference/mpp-i-machine-payments-protocol-for-inference-6a42515d66a19f1d56d6efe6)
 [![Discussions](https://img.shields.io/badge/discussions-open-brightgreen)](https://github.com/Ando-OSS/mpp-i/discussions)
 [![Issues](https://img.shields.io/github/issues/Ando-OSS/mpp-i)](https://github.com/Ando-OSS/mpp-i/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](CONTRIBUTING.md)
@@ -35,12 +37,15 @@ The repository starts with the approved MPP-I paper. Future work will add draft 
 - PDF: [`paper/mpp-i-paper-v1.0.pdf`](paper/mpp-i-paper-v1.0.pdf)
 - LaTeX source: [`paper/mpp-i-paper-v1.0.tex`](paper/mpp-i-paper-v1.0.tex)
 - GitHub Pages PDF: <https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf>
+- Hugging Face Space: <https://huggingface.co/spaces/Ando-Inference/mpp-i>
+- Hugging Face Collection: <https://huggingface.co/collections/Ando-Inference/mpp-i-machine-payments-protocol-for-inference-6a42515d66a19f1d56d6efe6>
 
 ## Repository Structure
 
 - `paper/`: approved publication artifacts.
 - `spec/`: future normative and draft protocol specifications.
 - `pages/`: minimal GitHub Pages metadata page, robots file, and sitemap for public indexing.
+- `distribution/huggingface-space/`: source for the Hugging Face static Space.
 - `examples/`: future examples.
 - `packages/`: future libraries and SDK packages.
 
