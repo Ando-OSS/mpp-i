@@ -1,5 +1,7 @@
 # MPP-I: Machine Payments Protocol for Inference
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21017440.svg)](https://doi.org/10.5281/zenodo.21017440)
+
 MPP-I is a proposed MPP-compatible, inference-native payment profile for metered inference.
 
 MPP and related Payment HTTP work make it possible for agents and applications to pay for API requests, tool calls, and content through an HTTP payment flow. MPP-I applies that model to inference, where the final metered amount due is not known when the request is admitted and where payment state must remain ahead of admitted execution.
