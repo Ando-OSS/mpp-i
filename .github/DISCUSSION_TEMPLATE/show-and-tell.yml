@@ -1,0 +1,27 @@
+title: "[Implementation]: "
+labels: ["implementation"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this for provider, wallet, agent, facilitator, client, library, or example implementation discussion."
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation context
+      description: What are you building or evaluating?
+    validations:
+      required: true
+  - type: textarea
+    id: protocol_surface
+    attributes:
+      label: Protocol surface
+      description: Which part of MPP-I is relevant, such as admission, payment control, metering, settlement, receipts, or transport?
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or proposal
+      description: What support, clarification, or change would help this implementation?
+    validations:
+      required: true
