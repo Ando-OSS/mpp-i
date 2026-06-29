@@ -7,9 +7,11 @@
 - [x] No temporary render files are present.
 - [x] `CITATION.cff` is present.
 - [x] `CONTRIBUTING.md` explains Issues, Discussions, and PRs.
-- [x] GitHub Pages workflow publishes the PDF directly.
+- [x] GitHub Pages workflow publishes the PDF, TeX source, Scholar metadata page, robots file, and sitemap.
+- [x] Google Scholar citation metadata tags are present on the Pages metadata page.
 - [x] GitHub Issues templates are present.
 - [x] GitHub Discussions templates are present.
 - [x] License policy is present.
 - [x] First release tag is planned as `v1.0.0`.
-- [x] Zenodo is not enabled until the repository is public, clean, and tagged.
+- [ ] Zenodo GitHub integration is enabled before the first formal release tag is created.
+- [ ] DOI is copied back into `CITATION.cff`, `CITATION.bib`, and release notes.

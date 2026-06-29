@@ -31,7 +31,7 @@ jobs:
       - name: Prepare static artifact
         run: |
           mkdir -p _site
-          cp pages/index.html _site/index.html
+          cp -R pages/. _site/
           cp paper/mpp-i-paper-v1.0.pdf _site/mpp-i-paper-v1.0.pdf
           cp paper/mpp-i-paper-v1.0.tex _site/mpp-i-paper-v1.0.tex
       - name: Upload artifact

@@ -3,14 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="0; url=./mpp-i-paper-v1.0.pdf">
-    <script>window.location.replace("./mpp-i-paper-v1.0.pdf");</script>
-    <title>MPP-I Paper v1.0</title>
+    <title>MPP-I: Machine Payments Protocol for Inference</title>
+    <link rel="canonical" href="https://ando-oss.github.io/mpp-i/">
+    <meta name="description" content="MPP-I is proposed as an MPP-native payment profile for metered inference.">
+    <meta name="citation_title" content="MPP-I: Machine Payments Protocol for Inference">
+    <meta name="citation_author" content="Jamie">
+    <meta name="citation_publication_date" content="2026/06/28">
+    <meta name="citation_online_date" content="2026/06/29">
+    <meta name="citation_technical_report_institution" content="Alethieum">
+    <meta name="citation_technical_report_number" content="Paper v1.0">
+    <meta name="citation_language" content="en">
+    <meta name="citation_keywords" content="machine payments; metered inference payments; HTTP 402; MPP; x402; inference wallets; metered inference; streaming payments">
+    <meta name="citation_pdf_url" content="https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf">
+    <meta name="DC.title" content="MPP-I: Machine Payments Protocol for Inference">
+    <meta name="DC.creator" content="Jamie">
+    <meta name="DC.publisher" content="Alethieum">
+    <meta name="DC.issued" content="2026-06-28">
+    <meta name="DC.identifier" content="https://ando-oss.github.io/mpp-i/mpp-i-paper-v1.0.pdf">
   </head>
   <body>
-    <p>
-      Opening
-      <a href="./mpp-i-paper-v1.0.pdf">MPP-I Paper v1.0 PDF</a>.
-    </p>
+    <main>
+      <h1>MPP-I: Machine Payments Protocol for Inference</h1>
+      <p><strong>Author:</strong> Jamie, Alethieum</p>
+      <p><strong>Publication date:</strong> 2026-06-28</p>
+      <p><strong>Version:</strong> Paper v1.0</p>
+      <p><a href="./mpp-i-paper-v1.0.pdf">Read the PDF</a></p>
+      <h2>Abstract</h2>
+      <p>
+        MPP-I (Machine Payments Protocol for Inference) is proposed as an MPP-native payment profile for metered inference. It is designed for autonomous agents, human users, applications, inference wallets, inference providers, settlement methods, facilitators, and blockchain networks that support machine payments. MPP and related Payment HTTP drafts supply the intended 402 challenge, credential, and receipt envelope. MPP-I defines the inference-specific lifecycle inside that envelope.
+      </p>
+      <p>
+        Inference is not a fixed-price resource access call. A provider can publish machine-readable prices, bounds, and admission requirements, but the final delivered output length is not known when the request is admitted. The serving path must cover prompt tokenisation, prefill, scheduler admission, KV-cache allocation, autoregressive decode, output delivery, and final settlement. MPP-I proposes run-scoped authorisation, cumulative credit grants, signed meter frames, low-credit and drain states, delivered-unit billing, settlement references, and final inference receipts. Its core design goal is to synchronise delivered-output production with payment authorisation, so agents, apps, users, wallets, and providers can use machine payments for metered inference without placing payment in the per-token critical path, while keeping authorisation ahead of the next disclosed admitted interval.
+      </p>
+    </main>
   </body>
 </html>

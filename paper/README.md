@@ -10,4 +10,4 @@ This folder contains the approved MPP-I paper release.
 - Publisher: Alethieum
 - Author: Jamie
 
-The PDF and TeX source are the canonical Paper v1.0 release artifacts. GitHub Pages opens the PDF directly.
+The PDF and TeX source are the canonical Paper v1.0 release artifacts. GitHub Pages serves the PDF and a minimal metadata page for indexing.

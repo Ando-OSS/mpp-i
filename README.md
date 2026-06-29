@@ -25,7 +25,7 @@ The repository starts with the approved MPP-I paper. Future work will add draft 
 
 - `paper/`: approved publication artifacts.
 - `spec/`: future normative and draft protocol specifications.
-- `pages/`: minimal GitHub Pages entrypoint that opens the PDF.
+- `pages/`: minimal GitHub Pages metadata page, robots file, and sitemap for public indexing.
 - `examples/`: future examples.
 - `packages/`: future libraries and SDK packages.
 
@@ -39,7 +39,7 @@ Use Issues for actionable corrections and Discussions for open-ended protocol fe
 
 ## Citation
 
-Use the repository citation metadata in `CITATION.cff`. A DOI may be added later through Zenodo after the public repository and release process are stable.
+Use the repository citation metadata in `CITATION.cff`. The first DOI should be minted from a tagged GitHub Release after the Zenodo GitHub integration is enabled.
 
 ## License
 
