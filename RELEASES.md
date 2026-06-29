@@ -13,5 +13,6 @@ Stable versions should be published as GitHub Releases backed by tags.
 
 ## Citation
 
-Before Zenodo is enabled, cite the tagged GitHub release or a permanent commit URL. After Zenodo is enabled, cite the DOI for the archived release snapshot.
+Use the Zenodo DOI for the archived release snapshot:
 
+https://doi.org/10.5281/zenodo.21017440

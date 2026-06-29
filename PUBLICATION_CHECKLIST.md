@@ -13,5 +13,5 @@
 - [x] GitHub Discussions templates are present.
 - [x] License policy is present.
 - [x] First release tag is planned as `v1.0.0`.
-- [ ] Zenodo GitHub integration is enabled before the first formal release tag is created.
-- [ ] DOI is copied back into `CITATION.cff`, `CITATION.bib`, and release notes.
+- [x] Zenodo GitHub integration is enabled before the first formal release tag is created.
+- [x] DOI is copied back into `CITATION.cff`, `CITATION.bib`, and release notes.

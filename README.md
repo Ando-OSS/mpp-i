@@ -12,6 +12,7 @@ MPP and related Payment HTTP work make it possible for agents and applications t
 - Publisher: Alethieum.
 - Author: Jamie.
 - Contact: jamie@alethieum.com.
+- DOI: [10.5281/zenodo.21017440](https://doi.org/10.5281/zenodo.21017440).
 
 The repository starts with the approved MPP-I paper. Future work will add draft protocol specifications, schemas, examples, and libraries.
 
@@ -39,7 +40,9 @@ Use Issues for actionable corrections and Discussions for open-ended protocol fe
 
 ## Citation
 
-Use the repository citation metadata in `CITATION.cff`. The first DOI should be minted from a tagged GitHub Release after the Zenodo GitHub integration is enabled.
+Use the repository citation metadata in `CITATION.cff`.
+
+DOI: [10.5281/zenodo.21017440](https://doi.org/10.5281/zenodo.21017440)
 
 ## License
 
